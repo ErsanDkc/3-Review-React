@@ -4,7 +4,7 @@ import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
 
 function Review() {
     const [index,setIndex] = useState(0)
-    const {id,name,job,image,text} = reviews[index]
+    const {name,job,image,text} = reviews[index]
 
     const prevPerson = () => {
         let number = index -1
